@@ -1,0 +1,23 @@
+{
+  "name": "redistest",
+  "version": "1.0.0",
+  "description": "Redis DB test",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon index.js"
+  },
+  "keywords": [
+    "redis"
+  ],
+  "author": "Pawel Kucia",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "redis": "^4.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
