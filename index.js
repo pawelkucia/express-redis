@@ -72,7 +72,7 @@ try {
     app.listen(PORT, async () => {
         console.log(`Connected successfully on port ${PORT}`);
 
-        // CConnect to DB
+        // Connect to DB
         await redisClient.connect();
         console.log('Redis DB connection: OK');
     });

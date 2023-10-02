@@ -4,7 +4,8 @@
   "description": "Redis DB test",
   "main": "index.js",
   "scripts": {
-    "start:dev": "nodemon index.js"
+    "start:dev": "nodemon index.js",
+    "start:prod": "node index.js"
   },
   "keywords": [
     "redis"
